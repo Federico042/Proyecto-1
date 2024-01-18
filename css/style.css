@@ -16,27 +16,8 @@ img {
     background-position: center;
     background-attachment: fixed;
 }
-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-header h1 {
-    font-family:'Nunito', sans-serif;
-    font-size: 60px;
-    margin: 20px;
-    font-weight: bold;
-     }
-.menu-nav {
-    display: flex;
-    gap: 20px;
-    margin-left: 50px;
-    margin-top: -25px;
-}
-.menu-nav li {
-    list-style-type: none;
-    display: flex;
-    font-size: 20px;
+header .navbar {
+    background-color: transparent !important;
 }
 footer {
    padding: auto;
@@ -209,18 +190,6 @@ footer {
     background-attachment: fixed;
     position: relative;
     padding-bottom: 200px;
-}
-.menu-nav-nosotros {
-    display: flex;
-    gap: 20px;
-    margin-left: 50px;
-    margin-top: -0px;
-}
-.menu-nav-nosotros li {
-    list-style-type: none;
-    display: flex;
-    margin-top: -11px;
-    font-size: 20px;
 }
 .caja-gift {
     background-color: rgba(255, 255, 255, 0.329);
